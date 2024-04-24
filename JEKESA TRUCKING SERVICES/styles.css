@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+.jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    font-family: "Jersey 25", sans-serif;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("welcome.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 90px;
+}
+    
+.courses {
+    background-color: #FFE5B4;
+    padding-bottom: .5in;
+}
+
+h2 {
+    padding: .5in 0 .5in .5in;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+li p{
+    margin: 10px;
+}
+
+.course {
+    display: flex;
+    align-items: center;
+}
+
+.course img {
+    border-radius: 13%;
+    border-style: solid;
+    margin-right: 10px;
+    height: 150px;
+    aspect-ratio: 16/9;
+}
+
+.course-info {
+    flex: 1;
+}
+
+footer {
+    height: 30vh;
+    background-color: #9ACD32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+
+.images{
+    display: flex;
+    padding: 30px;
+}
+
+.images img{
+    aspect-ratio: 16/9;
+    height: 50px;
+    padding: 10px;
+    mix-blend-mode: multiply;
+}
